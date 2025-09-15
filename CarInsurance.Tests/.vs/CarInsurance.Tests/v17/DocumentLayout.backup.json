@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\CarInsurance\\CarInsurance.Tests\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DE286DFD-0438-0B0A-3E3D-A27976733345}|CarInsurance.Tests.csproj|d:\\projects\\carinsurance\\carinsurance.tests\\controllers\\carscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE286DFD-0438-0B0A-3E3D-A27976733345}|CarInsurance.Tests.csproj|solutionrelative:controllers\\carscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE286DFD-0438-0B0A-3E3D-A27976733345}|CarInsurance.Tests.csproj|d:\\projects\\carinsurance\\carinsurance.tests\\services\\carservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE286DFD-0438-0B0A-3E3D-A27976733345}|CarInsurance.Tests.csproj|solutionrelative:services\\carservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE286DFD-0438-0B0A-3E3D-A27976733345}|CarInsurance.Tests.csproj|d:\\projects\\carinsurance\\carinsurance.tests\\carinsurance.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DE286DFD-0438-0B0A-3E3D-A27976733345}|CarInsurance.Tests.csproj|solutionrelative:carinsurance.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CarInsurance.Tests.csproj",
+              "DocumentMoniker": "D:\\Projects\\CarInsurance\\CarInsurance.Tests\\CarInsurance.Tests.csproj",
+              "RelativeDocumentMoniker": "CarInsurance.Tests.csproj",
+              "ToolTip": "D:\\Projects\\CarInsurance\\CarInsurance.Tests\\CarInsurance.Tests.csproj",
+              "RelativeToolTip": "CarInsurance.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-15T18:13:34.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CarsControllerTests.cs",
+              "DocumentMoniker": "D:\\Projects\\CarInsurance\\CarInsurance.Tests\\Controllers\\CarsControllerTests.cs",
+              "RelativeDocumentMoniker": "Controllers\\CarsControllerTests.cs",
+              "ToolTip": "D:\\Projects\\CarInsurance\\CarInsurance.Tests\\Controllers\\CarsControllerTests.cs",
+              "RelativeToolTip": "Controllers\\CarsControllerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T18:13:04.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CarServiceTests.cs",
+              "DocumentMoniker": "D:\\Projects\\CarInsurance\\CarInsurance.Tests\\Services\\CarServiceTests.cs",
+              "RelativeDocumentMoniker": "Services\\CarServiceTests.cs",
+              "ToolTip": "D:\\Projects\\CarInsurance\\CarInsurance.Tests\\Services\\CarServiceTests.cs",
+              "RelativeToolTip": "Services\\CarServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T18:11:32.807Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
