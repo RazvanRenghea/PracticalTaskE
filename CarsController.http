@@ -5,3 +5,19 @@ Accept: application/json
 ### Check insurance validity for a car (example: carId=1, date=2024-06-01)
 GET https://localhost:61341/api/cars/1/insurance-valid?date=2024-06-01
 Accept: application/json
+
+### Add a new insurance claim for carId=1
+POST https://localhost:61341/api/cars/1/add-claim
+Content-Type: application/json
+Accept: application/json
+
+{
+  "claimDate": "2019-09-15",
+  "description": "idk",
+  "amount": 900
+}
+
+
+### Get the full history of a car (example: carId=1)
+GET https://localhost:61341/api/cars/1/history
+Accept: application/json

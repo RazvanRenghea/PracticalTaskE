@@ -30,4 +30,15 @@ public class CarsController(CarService service) : ControllerBase
             return NotFound();
         }
     }
+    [HttpPost("cars/{carId:long}/add-claim")]
+    public async Task<ActionResult<ClaimDto>> AddClaim(long carId, [FromBody] ClaimDto dto)
+    {
+        var claim = await _service.AddClaimAsync(carId, dto.ClaimDate, dto.Description, dto.Amount);
+        return Ok(claim);
+
+    }
+    [HttpGet("cars/{carId:long}/history")]
+    public async Task<ActionResult<List<CarHistoryEntryDto>>> GetHistory(long carId)
+       => Ok(await _service.GetCarHistoryAsync(carId));
+
 }

@@ -23,6 +23,17 @@ using (var scope = app.Services.CreateScope())
     var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
     db.Database.EnsureCreated();
     SeedData.EnsureSeeded(db);
+    db.Database.ExecuteSqlRaw(@"
+        CREATE TABLE IF NOT EXISTS InsuranceClaim (
+            Id INTEGER PRIMARY KEY AUTOINCREMENT,
+            CarId INTEGER NOT NULL,
+            ClaimDate TEXT NOT NULL,
+            Description TEXT NOT NULL,
+            Amount REAL NOT NULL,
+            FOREIGN KEY (CarId) REFERENCES Cars(Id)
+        );
+    ");
+
 }
 
 if (app.Environment.IsDevelopment())
