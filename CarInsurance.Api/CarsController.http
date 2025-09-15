@@ -12,9 +12,9 @@ Content-Type: application/json
 Accept: application/json
 
 {
-  "claimDate": "2019-09-15",
+  "claimDate": "2015-09-15",
   "description": "idk",
-  "amount": 900
+  "amount": 700
 }
 
 

@@ -14,6 +14,7 @@ builder.Services.AddScoped<CarService>();
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddHostedService<PolicyExpirationLogger>();
 
 var app = builder.Build();
 
@@ -31,6 +32,14 @@ using (var scope = app.Services.CreateScope())
             Description TEXT NOT NULL,
             Amount REAL NOT NULL,
             FOREIGN KEY (CarId) REFERENCES Cars(Id)
+        );
+    ");
+    db.Database.ExecuteSqlRaw(@"
+        CREATE TABLE IF NOT EXISTS ProcessedExpirations (
+            Id INTEGER PRIMARY KEY AUTOINCREMENT,
+            PolicyId INTEGER NOT NULL,
+            LoggedAt TEXT NOT NULL,
+            FOREIGN KEY (PolicyId) REFERENCES Policies(Id)
         );
     ");
 

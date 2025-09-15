@@ -154,3 +154,4 @@ D:\Projects\CarInsurance\CarInsurance.Api\obj\Debug\net8.0\refint\CarInsurance.A
 D:\Projects\CarInsurance\CarInsurance.Api\obj\Debug\net8.0\CarInsurance.Api.pdb
 D:\Projects\CarInsurance\CarInsurance.Api\obj\Debug\net8.0\CarInsurance.Api.genruntimeconfig.cache
 D:\Projects\CarInsurance\CarInsurance.Api\obj\Debug\net8.0\ref\CarInsurance.Api.dll
+D:\Projects\CarInsurance\CarInsurance.Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

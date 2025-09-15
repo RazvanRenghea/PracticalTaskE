@@ -9,13 +9,15 @@ public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(op
     public DbSet<Car> Cars => Set<Car>();
     public DbSet<InsurancePolicy> Policies => Set<InsurancePolicy>();
     public DbSet<InsuranceClaim> InsuranceClaim => Set<InsuranceClaim>();
+    public DbSet<ProcessedExpiredPolicy> ProcessedExpirations => Set<ProcessedExpiredPolicy>();
+
 
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Car>()
             .HasIndex(c => c.Vin)
-            .IsUnique(false); // TODO: set true and handle conflicts
+            .IsUnique(true); // TODO: set true and handle conflicts
 
         modelBuilder.Entity<InsurancePolicy>()
             .Property(p => p.StartDate)
@@ -50,7 +52,8 @@ public static class SeedData
         db.Policies.AddRange(
             new InsurancePolicy { CarId = car1.Id, Provider = "Allianz", StartDate = new DateOnly(2024,1,1), EndDate = new DateOnly(2024,12,31) },
             new InsurancePolicy { CarId = car1.Id, Provider = "Groupama", StartDate = new DateOnly(2025,1,1), EndDate = new DateOnly(2025, 6, 11) }, // open-ended on purpose
-            new InsurancePolicy { CarId = car2.Id, Provider = "Allianz", StartDate = new DateOnly(2025,3,1), EndDate = new DateOnly(2025,9,30) }
+            new InsurancePolicy { CarId = car2.Id, Provider = "Allianz", StartDate = new DateOnly(2025,3,1), EndDate = new DateOnly(2025,9,30) },
+            new InsurancePolicy { CarId = car2.Id, Provider = "TestProvider1", StartDate = new DateOnly(2025, 4, 1), EndDate = DateOnly.FromDateTime(DateTime.UtcNow.AddMinutes(-30)) }
         );
         db.SaveChanges();
     }
