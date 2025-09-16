@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "D:\\Projects\\CarInsurance\\CarInsurance.Api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D448F1CB-6F0E-736C-EEF1-3AC5923400B1}|CarInsurance.Api.csproj|d:\\projects\\carinsurance\\carinsurance.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D448F1CB-6F0E-736C-EEF1-3AC5923400B1}|CarInsurance.Api.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D448F1CB-6F0E-736C-EEF1-3AC5923400B1}|CarInsurance.Api.csproj|d:\\projects\\carinsurance\\carinsurance.api\\models\\processedexpiredpolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D448F1CB-6F0E-736C-EEF1-3AC5923400B1}|CarInsurance.Api.csproj|solutionrelative:models\\processedexpiredpolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D448F1CB-6F0E-736C-EEF1-3AC5923400B1}|CarInsurance.Api.csproj|d:\\projects\\carinsurance\\carinsurance.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D448F1CB-6F0E-736C-EEF1-3AC5923400B1}|CarInsurance.Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D448F1CB-6F0E-736C-EEF1-3AC5923400B1}|CarInsurance.Api.csproj|d:\\projects\\carinsurance\\carinsurance.api\\services\\policyexpirationlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D448F1CB-6F0E-736C-EEF1-3AC5923400B1}|CarInsurance.Api.csproj|solutionrelative:services\\policyexpirationlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D448F1CB-6F0E-736C-EEF1-3AC5923400B1}|CarInsurance.Api.csproj|d:\\projects\\carinsurance\\carinsurance.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D448F1CB-6F0E-736C-EEF1-3AC5923400B1}|CarInsurance.Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D448F1CB-6F0E-736C-EEF1-3AC5923400B1}|CarInsurance.Api.csproj|d:\\projects\\carinsurance\\carinsurance.api\\services\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,12 +19,28 @@
       "RelativeMoniker": "D:0:0:{D448F1CB-6F0E-736C-EEF1-3AC5923400B1}|CarInsurance.Api.csproj|solutionrelative:controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D448F1CB-6F0E-736C-EEF1-3AC5923400B1}|CarInsurance.Api.csproj|d:\\projects\\carinsurance\\carinsurance.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D448F1CB-6F0E-736C-EEF1-3AC5923400B1}|CarInsurance.Api.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D448F1CB-6F0E-736C-EEF1-3AC5923400B1}|CarInsurance.Api.csproj|d:\\projects\\carinsurance\\carinsurance.api\\dtos\\dtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D448F1CB-6F0E-736C-EEF1-3AC5923400B1}|CarInsurance.Api.csproj|solutionrelative:dtos\\dtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D448F1CB-6F0E-736C-EEF1-3AC5923400B1}|CarInsurance.Api.csproj|d:\\projects\\carinsurance\\carinsurance.api\\models\\insuranceclaim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D448F1CB-6F0E-736C-EEF1-3AC5923400B1}|CarInsurance.Api.csproj|solutionrelative:models\\insuranceclaim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D448F1CB-6F0E-736C-EEF1-3AC5923400B1}|CarInsurance.Api.csproj|d:\\projects\\carinsurance\\carinsurance.api\\models\\insurancepolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D448F1CB-6F0E-736C-EEF1-3AC5923400B1}|CarInsurance.Api.csproj|solutionrelative:models\\insurancepolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D448F1CB-6F0E-736C-EEF1-3AC5923400B1}|CarInsurance.Api.csproj|d:\\projects\\carinsurance\\carinsurance.api\\carscontroller.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{D448F1CB-6F0E-736C-EEF1-3AC5923400B1}|CarInsurance.Api.csproj|solutionrelative:carscontroller.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D448F1CB-6F0E-736C-EEF1-3AC5923400B1}|CarInsurance.Api.csproj|d:\\projects\\carinsurance\\carinsurance.api\\models\\processedexpiredpolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D448F1CB-6F0E-736C-EEF1-3AC5923400B1}|CarInsurance.Api.csproj|solutionrelative:models\\processedexpiredpolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,24 +50,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
+              "Title": "Dtos.cs",
+              "DocumentMoniker": "D:\\Projects\\CarInsurance\\CarInsurance.Api\\Dtos\\Dtos.cs",
+              "RelativeDocumentMoniker": "Dtos\\Dtos.cs",
+              "ToolTip": "D:\\Projects\\CarInsurance\\CarInsurance.Api\\Dtos\\Dtos.cs",
+              "RelativeToolTip": "Dtos\\Dtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T12:44:36.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InsuranceClaim.cs",
+              "DocumentMoniker": "D:\\Projects\\CarInsurance\\CarInsurance.Api\\Models\\InsuranceClaim.cs",
+              "RelativeDocumentMoniker": "Models\\InsuranceClaim.cs",
+              "ToolTip": "D:\\Projects\\CarInsurance\\CarInsurance.Api\\Models\\InsuranceClaim.cs",
+              "RelativeToolTip": "Models\\InsuranceClaim.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T12:44:07.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Projects\\CarInsurance\\CarInsurance.Api\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Projects\\CarInsurance\\CarInsurance.Api\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-15T22:17:34.695Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "PolicyExpirationLogger.cs",
               "DocumentMoniker": "D:\\Projects\\CarInsurance\\CarInsurance.Api\\Services\\PolicyExpirationLogger.cs",
               "RelativeDocumentMoniker": "Services\\PolicyExpirationLogger.cs",
@@ -72,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "ProcessedExpiredPolicy.cs",
               "DocumentMoniker": "D:\\Projects\\CarInsurance\\CarInsurance.Api\\Models\\ProcessedExpiredPolicy.cs",
               "RelativeDocumentMoniker": "Models\\ProcessedExpiredPolicy.cs",
@@ -80,25 +114,24 @@
               "RelativeToolTip": "Models\\ProcessedExpiredPolicy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T22:15:12.617Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T22:15:12.617Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\Projects\\CarInsurance\\CarInsurance.Api\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
               "ToolTip": "D:\\Projects\\CarInsurance\\CarInsurance.Api\\Data\\AppDbContext.cs",
               "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAmwA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-15T22:11:17.514Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "InsurancePolicy.cs",
               "DocumentMoniker": "D:\\Projects\\CarInsurance\\CarInsurance.Api\\Models\\InsurancePolicy.cs",
               "RelativeDocumentMoniker": "Models\\InsurancePolicy.cs",
@@ -111,33 +144,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "CarService.cs",
               "DocumentMoniker": "D:\\Projects\\CarInsurance\\CarInsurance.Api\\Services\\CarService.cs",
               "RelativeDocumentMoniker": "Services\\CarService.cs",
               "ToolTip": "D:\\Projects\\CarInsurance\\CarInsurance.Api\\Services\\CarService.cs",
               "RelativeToolTip": "Services\\CarService.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAEwB0AAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-15T22:03:35.843Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "CarsController.cs",
               "DocumentMoniker": "D:\\Projects\\CarInsurance\\CarInsurance.Api\\Controllers\\CarsController.cs",
               "RelativeDocumentMoniker": "Controllers\\CarsController.cs",
               "ToolTip": "D:\\Projects\\CarInsurance\\CarInsurance.Api\\Controllers\\CarsController.cs",
               "RelativeToolTip": "Controllers\\CarsController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowDcAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-15T22:02:15.577Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "CarsController.http",
               "DocumentMoniker": "D:\\Projects\\CarInsurance\\CarInsurance.Api\\CarsController.http",
               "RelativeDocumentMoniker": "CarsController.http",

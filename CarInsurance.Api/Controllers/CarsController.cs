@@ -17,27 +17,9 @@ public class CarsController(CarService service) : ControllerBase
     [HttpGet("cars/{carId:long}/insurance-valid")]
     public async Task<ActionResult<InsuranceValidityResponse>> IsInsuranceValid(long carId, [FromQuery] string date)
     {
-        if (carId <= 0)
-        {
-            return BadRequest("Car ID must be a positive number.");
-        }
-
-        if (string.IsNullOrEmpty(date))
-        {
-            return BadRequest("Date parameter is required.");
-        }
-
         if (!DateOnly.TryParse(date, out var parsed))
         {
             return BadRequest("Invalid date format. Use YYYY-MM-DD.");
-        }
-
-        var minDate = new DateOnly(1900, 1, 1);
-        var maxDate = new DateOnly(2100, 12, 31);
-
-        if (parsed < minDate || parsed > maxDate)
-        {
-            return BadRequest($"Date must be between {minDate:yyyy-MM-dd} and {maxDate:yyyy-MM-dd}.");
         }
 
         try
@@ -45,11 +27,16 @@ public class CarsController(CarService service) : ControllerBase
             var valid = await _service.IsInsuranceValidAsync(carId, parsed);
             return Ok(new InsuranceValidityResponse(carId, parsed.ToString("yyyy-MM-dd"), valid));
         }
+        catch (ArgumentException ex)
+        {
+            return BadRequest(ex.Message);
+        }
         catch (KeyNotFoundException)
         {
             return NotFound();
         }
     }
+
     [HttpPost("cars/{carId:long}/add-claim")]
     public async Task<ActionResult<ClaimDto>> AddClaim(long carId, [FromBody] ClaimDto dto)
     {
